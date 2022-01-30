@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Poppins:wght@300&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Pacifico&family=Poppins:wght@300&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Pacifico&family=Poller+One&family=Poppins:wght@300&family=Space+Mono&display=swap');
+
+html { scroll-behavior: smooth;}
+
+.company-name{
+    font-family: "Cinzel" , serif;
+    display: inline;
+    color: slategray;
+    
+}
+
+.logo {
+    display: inline;
+    width: 50px;
+    height: auto;
+    max-width: 50px;
+    vertical-align: bottom;
+    
+}
+
+#pricing {
+    display: inline;
+    font-family: "Cinzel" , serif;
+    text-align: right;
+    float: right;
+    margin-left: 65px;
+    margin-top: -25px;
+    font-size: 20px;
+    margin-right: 45px;
+    text-decoration: none;
+}
+
+#pricing:hover {
+    display: inline;
+    font-family: "Cinzel" , serif;
+    text-align: right;
+    float: right;
+    margin-left: 65px;
+    font-size: 20px;
+    margin-right: 45px;
+    margin-top: -25px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: tomato;
+    border-radius: 50%;
+    transition:ease-in 0.25s;
+}
+
+#benefits {
+    display: inline;
+    font-family: "Cinzel" , serif;
+    text-align: right;
+    float: right;
+    margin-left: 65px;
+    margin-top: -25px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#benefits:hover {
+    display: inline;
+    font-family: "Cinzel" , serif;
+    text-align: right;
+    float: right;
+    margin-left: 65px;
+    margin-top: -25px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: tomato;
+    border-radius: 50%;
+    transition:ease-in 0.25s;
+}
+
+#story {
+    display: inline;
+    font-family: "Cinzel" , serif;
+    text-align: right;
+    float: right;
+    margin-left: 65px;
+    margin-top: -25px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#story:hover {
+    display: inline;
+    font-family: "Cinzel" , serif;
+    text-align: right;
+    float: right;
+    margin-left: 65px;
+    margin-top: -25px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: tomato;
+    border-radius: 50%;
+    transition:ease-in 0.25s;
+}
+
+.title {
+    font-family: "Poller one";
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    color: whitesmoke;
+    text-shadow: 2px 2px slategrey;
+    background-image: linear-gradient(135deg, tomato, rgb(218, 76, 50));
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    height: 50px;
+    padding-top: 35px;
+    font-weight: bolder;
+    cursor: default;
+}
+
+#email {
+    display: inline-block;
+    margin-left: 36%;
+    zoom: 1.5;
+    }
+
+.submit-button {
+    display: inline-block;
+    margin: auto;
+    zoom: 1.5;
+    border: none;
+    background-color: rgb(247, 223, 15);
+    border-radius: 5%;
+    height: 25px;
+}
+
+
+
+.submit-button:hover {
+    display: inline-block;
+    margin: auto;
+    zoom: 1.5;
+    border: none;
+    background-color: tomato;
+    cursor: pointer;
+    transition: ease-in 1.5s;
+    color: whitesmoke;
+    border-radius: 5%;
+    font-weight: bold;
+    position:sticky;
+    padding-left: 200px;
+    
+}
+
+#runner {
+ width: 30px;
+ height: auto;
+ vertical-align: bottom;
+ transform:scaleX(-1);
+
+}
+
+#dumbell {
+    width: 80px;
+    height: auto;
+    margin-left: 25%;
+}
+
+.quality-head {
+display: inline;
+vertical-align: 30px;
+margin-left: 75px;
+padding-top: 25px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: slategray;
+}
+
+.quality-description {
+    display: block;
+    margin-left: 535px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: slategray;
+    margin-top: -20px;
+    }
+
+#shipment {
+        width: 80px;
+        height: auto;
+        margin-left: 25%;
+    }
+    
+.shipping-head {
+    display: inline;
+    vertical-align: 30px;
+    margin-left: 75px;
+    padding-top: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: slategray;
+    }
+    
+.shipping-description {
+        display: block;
+        margin-left: 535px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: slategray;
+        margin-top: -20px;
+        }
+
+
+#warranty {
+            width: 80px;
+            height: auto;
+            margin-left: 25%;
+            vertical-align: -25px;
+        }
+        
+.warranty-head {
+        display: inline;
+        vertical-align: 12px;
+        margin-left: 75px;
+        padding-top: 25px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: slategray;
+        }
+        
+.warranty-description {
+            display: block;
+            margin-left: 535px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: slategray;
+            margin-top: -20px;
+            }
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    border-color: rgb(247, 138, 119);
+    border-width: 10px;
+    border-style:solid;
+    border-radius: 50%;
+}
+
+#prices {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#price1 {
+    display: inline-block;
+    border: 4px;
+    border-style: solid;
+    border-color: slategray;
+    width: 300px;
+    height: 350px;
+    margin-left:250px;
+    padding-top: -50px;
+    
+}
+
+#price1:hover {
+    display: inline-block;
+    border: 4px;
+    border-style: solid;
+    border-color: slategray;
+    width: 300px;
+    height: 350px;
+    margin-left:250px;
+    padding-top: -50px;
+    background-image: url(https://cdn-icons.flaticon.com/png/512/2398/premium/2398025.png?token=exp=1643468542~hmac=5c62960eb0abaf0b9a98e18b78590872);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition:ease 0.5s;
+    
+}
+
+#price2 {
+    display: inline-block;
+    border: 4px;
+    border-style: solid;
+    border-color: slategray;
+    width: 300px;
+    height: 350px;
+    margin-left:30px;
+    padding-top: -50px;
+}
+
+#price2:hover {
+    display: inline-block;
+    border: 4px;
+    border-style: solid;
+    border-color: slategray;
+    width: 300px;
+    height: 350px;
+    margin-left:30px;
+    padding-top: -50px;
+    background-image: url(https://cdn-icons.flaticon.com/png/512/3541/premium/3541641.png?token=exp=1643469252~hmac=a9b59c959cc351b1953ff621f6328921);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition:ease 0.5s;
+}
+
+#price3 {
+    display: inline-block;
+    border: 4px;
+    border-style: solid;
+    border-color: slategray;
+    width: 300px;
+    height: 350px;
+    margin-left:30px;
+    padding-top: -50px;
+}
+
+#price3:hover {
+    display: inline-block;
+    border: 4px;
+    border-style: solid;
+    border-color: slategray;
+    width: 300px;
+    height: 350px;
+    margin-left:30px;
+    padding-top: -50px;
+    background-image: url(https://cdn-icons.flaticon.com/png/512/3363/premium/3363822.png?token=exp=1643469335~hmac=cca676d32afe1308509fdddbc6b5077d);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition:ease 0.5s;
+}
+
+.pricetitle {
+    background-color: tomato;
+    height:50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 2px 2px slategrey;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.pricedetails {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(56, 65, 75);
+    padding-top: 15px;
+    cursor:default;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-shadow:2px 1px cornsilk;
+    font-weight: bold;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(56, 65, 75);
+    padding-top: 15px;
+    cursor:default;
+    text-align: left;
+}
+
+.button {
+    margin-left: 95px;
+    margin-top: 25px;
+    border:none;
+    background-color: rgb(255, 198, 55);
+    font-weight: bold;
+    cursor: pointer;
+    zoom: 1.2;
+}
+
+#footer {
+    background: linear-gradient(30deg, tomato, rgb(238, 142, 126));
+    display: block;
+    margin: 0 10% -100px; 10%;
+    height: 100px;
+}
+
+.footera {
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    float: right;
+    margin-left: 5px;
+    margin-right: 25px;
+    margin-top: 15px;;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none
+}
+
+#copyright {
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    float: right;
+    margin-left: 5px;
+    margin-right: 25px;
+    margin-top: 15px;
+    font-weight: lighter;
+    opacity: 70% ;
+}
+
+@media only screen and (max-width 600px) {body {background-color: dodgerblue; display: flex;}}
+
+
